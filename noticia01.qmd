@@ -1,0 +1,11 @@
+---
+title: "Noticia 1"
+author: "Pedro Luque"
+lang: es
+format:
+  html:
+    toc: true 
+---
+
+Mi primera noticia en mi página trata sobre ...
+        

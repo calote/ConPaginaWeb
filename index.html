@@ -363,8 +363,26 @@ display: none;
 salida “html”, o un fichero Quarto llamado: “index.qmd”.</p></li>
 <li><p>Hacer “Knit” o “Render” sobre el fichero “index.Rmd”.</p></li>
 <li><p>Activar el uso de git en el proyecto:
-<code>usethis::use_git_config()</code> y luego:
-<code>usethis::use_git()</code>.</p></li>
+<code>usethis::use_git_config(user.name = &quot;Jane&quot;, user.email = &quot;jane@example.org&quot;)</code>
+y luego: <code>usethis::use_git()</code>.</p></li>
+<li><p>Luego activar el uso de GitHub con
+<code>usethis::use_github()</code>.</p></li>
+</ul>
+<pre><code>ℹ Defaulting to &quot;https&quot; Git protocol.
+! There are uncommitted changes and we&#39;re about to create and push to a new GitHub repo
+  Do you want to proceed anyway?
+
+1: No way
+2: For sure
+3: Nope
+
+Selection: 2
+✔ Creating GitHub repository &quot;calote/ConPaginaWeb&quot;.
+✔ Setting remote &quot;origin&quot; to &quot;https://github.com/calote/ConPaginaWeb.git&quot;.
+✔ Pushing &quot;master&quot; branch to GitHub and setting &quot;origin/master&quot; as upstream branch.
+✔ Opening URL &lt;https://github.com/calote/ConPaginaWeb&gt;.</code></pre>
+<ul>
+<li>Hacer un Commit y luego un Push al repositorio en GitHub.</li>
 </ul>
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>

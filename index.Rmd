@@ -15,7 +15,30 @@ knitr::opts_chunk$set(echo = TRUE)
 - Crear un fichero Rmd llamado: "index.Rmd" pero con formato de salida "html", o un fichero Quarto llamado: "index.qmd".
 - Hacer "Knit" o "Render" sobre el fichero "index.Rmd".
 
-- Activar el uso de git en el proyecto: `usethis::use_git_config()` y luego: `usethis::use_git()`.
+- Activar el uso de git en el proyecto: `usethis::use_git_config(user.name = "Jane", user.email = "jane@example.org")` y luego: `usethis::use_git()`.
+
+- Luego activar el uso de GitHub con `usethis::use_github()`.
+
+
+```
+ℹ Defaulting to "https" Git protocol.
+! There are uncommitted changes and we're about to create and push to a new GitHub repo
+  Do you want to proceed anyway?
+
+1: No way
+2: For sure
+3: Nope
+
+Selection: 2
+✔ Creating GitHub repository "calote/ConPaginaWeb".
+✔ Setting remote "origin" to "https://github.com/calote/ConPaginaWeb.git".
+✔ Pushing "master" branch to GitHub and setting "origin/master" as upstream branch.
+✔ Opening URL <https://github.com/calote/ConPaginaWeb>.
+```
+
+- Hacer un Commit y luego un Push al repositorio en GitHub.
+
+
 
 ## R Markdown
 
